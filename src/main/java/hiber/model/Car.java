@@ -13,11 +13,11 @@ public class Car {
     String model;
 
     @Column(name = "series")
-    int series;
+    Integer series;
 
     public Car(){}
 
-    public Car(String model, int series) {
+    public Car(String model, Integer series) {
         this.model = model;
         this.series = series;
     }
@@ -38,11 +38,11 @@ public class Car {
         this.model = model;
     }
 
-    public int getSeries() {
+    public Integer getSeries() {
         return series;
     }
 
-    public void setSeries(int series) {
+    public void setSeries(Integer series) {
         this.series = series;
     }
 
